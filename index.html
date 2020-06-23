@@ -3,8 +3,15 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="description" content="Hauptseite, Öffnugszeiten, Slideshow" />
+    <meta charset="utf-8">
+    <html lang="de">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+        p {
+            text-align: center;
+        }
         body {
             font-family: Verdana, sans-serif;
             margin: 0px;
@@ -193,10 +200,10 @@
     <div class="content">
 
         <div class="topnav" id="myTopnav">
-            <center>
-                <img src="img/logo.png" alt="logo" style="width: auto;">
-            </center>
-            <a class="active" href="./index.html"> <img src="./logo.png"></a>
+
+            <img src="img/logo.png" alt="logo" style="width: auto;"> </img>
+
+            <a class="active" href="./index.html"> <img src="./logo.png" alt="logo"></a>
             <a href="./karten.html">Preise</a>
             <a href="https://de-de.facebook.com/cesaone/" target="blanc">News</a>
             <a href="https://www.google.com/maps/place/Habelschwerdter+Allee+1,+14195+Berlin/@52.4461972,13.2929248,19.73z/data=!4m5!3m4!1s0x47a85a5d4ec6a58b:0x4869a87213835ae2!8m2!3d52.4463074!4d13.2934928"
@@ -207,43 +214,39 @@
             </a>
         </div>
 
-        <center>
-            <img src="img/toplog.png" style="width: 100%;" </center>
+        <img src="img/toplog.png" style="width: 100%;" ></img>
+        <br>
+        <p>
+            <p style="color: black;">ÖFFNUNGSZEITEN:<br>
+            <p style="color: black;">MO-SO: 18 Uhr bis OPEN END<br>
 
-            <br>
-            </br>
+        </p>
 
-            <center>
-                <font color=black>ÖFFNUNGSZEITEN:</font><br></br>
-                <font color=black>MO-SO: 18-OPEN END</font><br></br>
+        <div class="slideshow-container">
 
-            </center>
+            <div class="mySlides fade">
 
-            <div class="slideshow-container">
+                <img src="./img/img10.jpg" alt="Außenbereich" style="width:60%;height:auto;">
 
-                <div class="mySlides fade">
-
-                    <img src="./img/img10.jpg" style="width:60%;height:auto;">
-
-                </div>
-
-                <div class="mySlides fade">
-
-                    <img src="./img/img11.jpg" style="width:60%;height:auto;">
-
-                </div>
-
-                <div class="mySlides fade">
-
-                    <img src="./img/img12.jpg" style="width:60%;height:auto;">
-
-                </div>
-                <div style="text-align:center">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
             </div>
+
+            <div class="mySlides fade">
+
+                <img src="./img/img11.jpg" alt="Bar" style="width:60%;height:auto;">
+
+            </div>
+
+            <div class="mySlides fade">
+
+                <img src="./img/img12.jpg" alt="Bar" style="width:60%;height:auto;">
+
+            </div>
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
     </div>
 
     <br>
@@ -280,13 +283,14 @@
         }
     </script>
 
-    </div>
+
 
 </body>
 <footer>
 
     <a href="contact.html">
-        <font color=black>Datenschutz / Impressum</font>
+
+        <p style="color: black;">Datenschutz / Impressum</p>
     </a>
 </footer>
 
